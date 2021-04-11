@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Konyul"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am interested in **Machine learning algorithm**"
+  bio              : "Interested in **Machine learning algorithm**"
   location         : "Seoul, Korea"
   email            : "konyulpark@gmail.com"
   links:
