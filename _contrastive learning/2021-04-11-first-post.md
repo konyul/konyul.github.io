@@ -1,7 +1,8 @@
 ---
 title: "bootstrap your own latent: a new approach to self-supervised learning : BYOL에서 predictor를 쓰는 이유와 실험을 하게된 motivation에 대한 개인적인 생각"
-date: 2021-04-11 05:55:28 -0400
-categories: contrastive learning
+date: 2017-10-20 08:26:28 -0400
+categories: jekyll update
+---
 ---
 
 
