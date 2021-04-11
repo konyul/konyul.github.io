@@ -3,7 +3,7 @@ title: "bootstrap your own latent: a new approach to self-supervised learning : 
 date: 2017-10-20 08:26:28 -0400
 categories: jekyll update
 ---
----
+
 
 
 우선 BYOL이 이러한 방식을 실험하게된 동기는 Self-organizing neural network that discovers surfaces in random-dot stereograms 이라는 논문에서 시작한다. 이 논문은 하나의 이미지에 두 개의 네트워크를 사용하였을 때 나오는 두개의 inference의 squared difference를 줄이는 방법으로 representation을 배울 수 있는 방법을 먼저 설명한다. 그러나 이 방법으로 training 하였을 때, 결국 networks는 collapsed representation을 얻게 되었다고 한다. 여기서 collapsed representation을 얻는다는 것은 두개의 networks의 output이 같은 constant vector를 내어놓는 것으로 squared difference는 0으로 수렴하여 model이 느끼기에는 loss가 0으로 수렴하여 좋은 representation을 얻게 된다고 생각하지만 실제로는 어떤 이미지를 input으로 하느냐에 관계없이 constant vector만 output으로 내놓는 의미 없는 representation을 얻게되는 것을 말한다.
